@@ -1,0 +1,816 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+
+}
+b{
+    color: #5da0f8;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1400;
+    margin: 0 auto;
+}
+section#main { 
+    background: url(../images/banner-bg.png) no-repeat;
+    background-position: right 0 ;
+    height: 100vh;
+}
+
+section#main section.wrapper { 
+    width: 90%;
+    margin: 0 auto;
+}
+
+section#main section.wrapper header { 
+    display: flex; 
+    padding-top: 15px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#main section.wrapper header h1 { 
+   
+}
+section#main section.wrapper header h1 a {
+    color: rgba(0, 0, 0, 0.89);
+    font-size: 40px;
+    font-weight: 700;
+}
+section#main section.wrapper header nav { 
+    
+}
+
+section#main section.wrapper header nav ul { 
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+}
+
+section#main section.wrapper header nav ul li { 
+    margin-right: 20px;
+    list-style: none;
+}
+section#main section.wrapper header nav ul li:last-child {
+    margin-right: 0;
+}
+section#main section.wrapper header nav ul li a i {
+    padding-left: 7px;
+    font-size: 10px;
+    color: #a5a5a5;
+}
+section#main section.wrapper header nav ul li a { 
+    text-decoration: none;
+    color: #a5a5a5;
+    font-weight: 500;
+}
+section#main section.wrapper header nav ul li a:hover {
+    color: #f5a640;
+}
+section#main section.wrapper section.spotlight { 
+    
+    
+}
+section#main section.wrapper section.spotlight div.left {
+    width: 50%;
+    margin-top: 9%;
+}
+section#main section.wrapper section.spotlight div.left h2 {
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 10%;
+}
+section#main section.wrapper section.spotlight div.left h2 span {
+    color: #f5a640;
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 10%;
+}
+section#main section.wrapper section.spotlight div.left p { 
+    font-size: 22px;
+    color: #a5a5a5;
+    margin-bottom: 70px;
+    padding-top: 50px;
+}
+
+section#main section.wrapper section.spotlight div.left a.button { 
+    background-color: #f5a640;
+    padding: 18px 23px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 32px;
+    display: inline-block;
+}
+/*  */
+
+section#menu { 
+    background: url(../images/left-bg-decor.png) no-repeat;
+    background-position: left 0 top 410px ;
+    margin-top: 10%;
+}
+
+section#menu section.wrapper { 
+
+}
+
+section#menu section.wrapper div.top { 
+    
+}
+section#menu section.wrapper div.top ul {
+    display: flex;
+    justify-content: center;
+}
+section#menu section.wrapper div.top ul li {
+    list-style: none;
+    width: 28%;
+    background-color: #fff;
+    -webkit-box-shadow: 6px 5px 35px 13px rgba(38,34,34,0.38);
+    -moz-box-shadow: 6px 5px 35px 13px rgba(38,34,34,0.38);
+    margin-right: 25px;
+    text-align: center;
+    padding: 67px 62px;
+    border-radius: 8px;
+    position: relative;
+}
+section#menu section.wrapper div.top ul li div.number {
+
+}
+section#menu section.wrapper div.top ul li div.number {
+    position: absolute;
+    left: 34px;
+    top: 15px;
+    color: #fdeee9;
+    font-size: 120px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+section#menu section.wrapper div.top ul li div.tend { 
+    width: 90px;
+    margin: 0 auto;
+}
+
+section#menu section.wrapper div.top ul li div.tend img { 
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+section#menu section.wrapper div.top ul li h3 { 
+   /* padding: 40px 0; */
+   font-size: 25px;
+   font-weight: 500;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+
+section#menu section.wrapper div.top ul li p { 
+    color: #a5a5a5;
+    /* padding-bottom: 60px; */
+    margin-bottom: 60px;
+}
+
+section#menu section.wrapper div.top ul li a.button { 
+    padding: 15px 22px;
+    background-color: #f0813f;
+    border-radius: 22px;
+    color: #fff;
+    display: inline-block;
+}
+
+section#menu section.wrapper div.bottom { 
+    padding-top: 20%; 
+    padding-bottom: 10%; 
+}
+section#menu section.wrapper div.bottom div.left {
+    position: relative;
+    left: 135px;
+    width: 30%;
+}
+section#menu section.wrapper div.bottom div.left img {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+section#menu section.wrapper div.bottom ul { 
+    
+    margin-left: 50%;
+}
+
+section#menu section.wrapper div.bottom ul li { 
+   list-style: none; 
+   width: 84%;
+   display: flex;
+   padding-bottom: 60px;
+}
+
+section#menu section.wrapper div.bottom ul li div.logo { 
+    width: 20%;
+    margin-right: 25px;
+}
+
+section#menu section.wrapper div.bottom ul li div.logo img { 
+    display: block;
+    width: 100%;
+
+}
+section#menu section.wrapper div.bottom ul li div.right {
+    width: 100%;
+}
+section#menu section.wrapper div.bottom ul li h3 { 
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+section#menu section.wrapper div.bottom ul li p { 
+    color: #a5a5a5;
+    font-size: 20px;
+}
+/*  */
+section#menu { 
+
+}
+
+section#menu section.wrapper { 
+
+}
+
+section#menu section.wrapper section.about { 
+
+}
+
+section#menu section.wrapper section.about div.top { 
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+section#menu section.wrapper section.about div.top h3 { 
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+section#menu section.wrapper section.about div.top h3 span {
+    font-size: 40px;
+    font-weight: 800;
+    color: #f0813f;
+}
+section#menu section.wrapper section.about div.top p { 
+    font-size: 20px;
+    color: #a5a5a5;
+    padding-bottom: 22%;
+}
+
+section#menu section.wrapper section.about div.bottomb { 
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 15%;
+}
+
+section#menu section.wrapper section.about div.bottomb div.item { 
+    padding: 60px 30px;
+    background: rgb(239,112,78);
+    background: linear-gradient(90deg, rgba(239,112,78,1) 31%, rgba(238,93,97,1) 85%);
+    width: 35%;
+    margin-left: 80px;
+    position: relative;
+    text-align: center;
+    border-radius: 8px;
+}
+
+section#menu section.wrapper section.about div.bottomb div.item div.profile { 
+    width: 25%;
+    position: absolute;
+    left: -52px;
+    top: -64px;
+}
+
+section#menu section.wrapper section.about div.bottomb div.item div.profile img { 
+    width: 100%;
+    display: block;
+}
+section#menu section.wrapper section.about div.bottomb div.item div.container { 
+
+}
+
+section#menu section.wrapper section.about div.bottomb div.item div.container span { 
+    color: #fff;
+}
+
+section#menu section.wrapper section.about div.bottomb div.item h5 { 
+    font-size: 25px;
+    padding: 20px 0;
+    color: #fff;
+}
+
+section#menu section.wrapper section.about div.bottomb div.item p { 
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+
+section#menu section.wrapper section.about div.bottomb div.item span { 
+    color: #fff;
+    opacity: 0.7;
+}
+
+section#menu section.wrapper section.about div.bottomb div.items { 
+    padding-left: 80px;
+    position: relative;
+}
+
+section#menu section.wrapper section.about div.bottomb div.items div.left { 
+    padding: 30px 35px;
+    background: rgb(239,112,78);
+    background: linear-gradient(90deg, rgba(239,112,78,1) 31%, rgba(238,93,97,1) 85%);
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 60px;
+    left: 70px;
+}
+
+section#menu section.wrapper section.about div.bottomb div.items div.left i { 
+    font-size: 20px;
+}
+
+section#menu section.wrapper section.about div.bottomb div.items div.right { 
+    padding: 30px 35px;
+    background: rgb(239,112,78);
+    background: linear-gradient(90deg, rgba(239,112,78,1) 31%, rgba(238,93,97,1) 85%);
+    color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    top: 108px;
+    left: 126px;
+}
+
+section#menu section.wrapper section.about div.bottomb div.items div.right i { 
+    font-size: 20px;
+}
+/*  */
+section#contact { 
+    background: url(../images/footer-bg.png) no-repeat;
+}
+
+section#contact section.wrapper { 
+    
+}
+section#contact section.wrapper div.foot {
+    display: flex;
+    padding-top: 17%;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+section#contact section.wrapper div.foot div.left { 
+    width: 60%;
+}
+
+section#contact section.wrapper  div.foot div.left form { 
+    padding: 40px;
+    width: 77%;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    -webkit-box-shadow: 6px 5px 35px 13px rgb(38 34 34 / 38%);
+    -moz-box-shadow: 6px 5px 35px 13px rgba(38,34,34,0.38);
+}
+
+section#contact section.wrapper  div.foot div.left form input { 
+    padding: 13px 15px;
+    border: 1px solid #c2bfbf;
+    width: 47%;
+    margin-right: 2px;
+    box-shadow: #fff;
+    border-radius: 8px;
+}
+
+section#contact section.wrapper  div.foot div.left form textarea { 
+    padding: 20px 15px;
+    border: 1px solid #c2bfbf;
+    width: 96%;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    resize: none;
+}
+
+section#contact section.wrapper  div.foot div.left form a.button { 
+    background-color: rgb(239,112,78);
+    padding: 13px 14px;
+    border-radius: 8px;
+    color: #fff;
+    display: inline-block;
+}
+
+section#contact section.wrapper  div.foot div.right { 
+    width: 50%;
+}
+
+section#contact section.wrapper  div.foot div.right h3 { 
+    font-size: 35px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section#contact section.wrapper  div.foot div.right h3 span {
+    font-size: 35px;
+    font-weight: 600;
+    color: #f5a640;
+}
+section#contact section.wrapper  div.foot div.right p { 
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+section#contact section.wrapper  div.foot div.right ul { 
+    display: flex;
+}
+
+section#contact section.wrapper  div.foot div.right ul li { 
+    list-style: none;
+    border: 1px solid;
+    padding: 13px 15px;
+    border-radius: 53%;
+    margin-right: 10px;
+    color: #fff;
+}
+section#contact section.wrapper  div.foot div.right ul li:hover {
+    color: #f5a640;
+}
+section#contact section.wrapper div.foot div.right ul li:last-child {
+    margin-right: 0;
+}
+
+section#contact section.wrapper  div.foot div.right ul li a { 
+    color: #fff;
+    display: inline-block;
+}
+
+section#contact section.wrapper  div.foot div.right ul li a i { 
+
+}
+section#contact section.wrapper  div.foot div.right ul i:hover {
+    color: #f5a640;
+}
+section#contact section.wrapper hr.line { 
+    border: 1px dotted;
+    margin: 20px 0;
+    color: #fff;
+    opacity: 0.3;
+}
+section#contact section.wrapper h6 { 
+    margin: 0 auto;
+    width: 40%;
+    font-size: 16px;
+    padding-bottom: 14px;
+    color: #fff;
+} 
+section#contact section.wrapper h6 a {
+    color: #fff;
+    display: inline-block;
+}
+/*  */    
+@media all and (max-width: 1280px){
+    section#main section.wrapper header {
+        width: 80%;
+    }
+    section#menu section.wrapper div.top {
+        margin-top: 15%;
+    }
+    section#main section.wrapper section.spotlight div.left a.button {
+        padding: 14px 23px;
+    }
+    section#main {
+        height: 120vh;
+    }
+    section#menu {
+        background-position: left -78px top 324px;
+    }
+    section#menu section.wrapper div.bottom {
+        padding-bottom: 0;
+    }
+    section#menu section.wrapper section.about div.bottomb div.item {
+        margin-left: 49px;
+    }
+    section#menu section.wrapper section.about div.bottomb div.items div.left {
+        left: 50px;
+    }
+    section#menu section.wrapper section.about div.bottomb div.items div.right {
+        left: 100px;
+    }
+    section#menu section.wrapper section.about div.bottomb {
+        padding-bottom: 0;
+    }
+    section#menu section.wrapper div.top ul li {
+        padding: 53px 35px;
+    }
+}
+@media all and (max-width: 1080px){
+    section#menu section.wrapper div.top ul li {
+        width: 33%;
+    }
+    section#menu {
+        background-position: left -78px top 295px;
+    }
+    section#menu section.wrapper div.bottom div.left {
+        left: 162px;
+    }
+    section#menu section.wrapper section.about div.bottomb div.item div.profile {
+        width: 30%;
+    }
+    
+}
+@media all and (max-width: 980px){
+    section#main section.wrapper header {
+        width: 100%;
+    }
+    section#menu section.wrapper section.about div.bottomb div.item {
+        margin-left: 18px;
+    }
+    section#menu section.wrapper div.top ul li {
+        padding: 42px 10px;
+    }
+    section#menu {
+        background-position: left -230px top 310px;
+    }
+    section#menu section.wrapper div.bottom div.left {
+        left: 104px;
+    }
+    section#menu section.wrapper div.bottom ul li {
+        width: 100%;
+    }
+    section#menu section.wrapper section.about div.bottomb div.item div.profile {
+        left: -28px;
+        top: -49px;
+    }
+    section#contact section.wrapper div.foot div.left form {
+        padding: 18px;
+    }
+    section#contact section.wrapper div.foot div.right p {
+        padding-bottom: 18px;
+    }
+    section#contact section.wrapper div.foot div.right h3 {
+        color: rgb(239,112,78);
+    }
+    section#menu section.wrapper section.about div.bottomb div.items div.left {
+        left: 30px;
+    }
+    section#menu section.wrapper section.about div.bottomb div.items div.right {
+        left: 75px;
+    }
+    section#main {
+        height: none;
+        background: linear-gradient(
+            90deg, rgba(239,112,78,1) 31%, rgba(238,93,97,1) 85%);    
+    }
+    section#main section.wrapper section.spotlight div.left p {
+        color: #fff;
+    }
+    section#main section.wrapper header nav ul {
+        background-color: rgb(239,112,78);
+    }
+    section#main section.wrapper header nav ul li a {
+        color: #fff;
+    }
+    section#main section.wrapper header nav ul li a i {
+        color: #fff;
+    }
+    section#menu section.wrapper div.bottom div.left {
+        left: 80px;
+        top: 83px;
+    }
+    section#contact section.wrapper h6 {
+        width: 70%;
+    }
+    section#menu section.wrapper div.bottom ul li div.logo {
+        width: 25%;
+    }
+    section#contact section.wrapper div.foot div.right h3 {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper div.foot div.right ul li {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper div.foot div.right ul li a {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper h6 {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper h6 a {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper hr.line {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper div.foot div.right h3 {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper div.foot div.right p {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#menu section.wrapper div.top ul {
+        flex-wrap: wrap;
+    }
+    section#menu section.wrapper div.top ul li {
+        padding: 53px 35px;
+        margin-right: 15px;
+        width: 90%;
+        margin-bottom: 23px;
+}
+@media all and (max-width: 768px){
+    section#main section.wrapper header nav {
+        display: none;
+    }
+    section#main section.wrapper section.spotlight div.left {
+        width: 75%;
+    }
+    section#main section.wrapper section.spotlight div.left h2 {
+        padding-top: 25%;
+    }
+    section#main section.wrapper section.spotlight div.left p {
+        margin-bottom: 0;
+        padding-top: 24px;
+        padding-bottom: 30px;
+    }
+    section#main {
+        height: 100%;
+    }
+    section#main section.wrapper section.spotlight div.left a.button {
+        display: inline-block;
+    }
+    section#main section.wrapper section.spotlight {
+        padding-bottom: 20px;
+    }
+    section#menu section.wrapper div.top ul {
+        flex-wrap: wrap;
+    }
+    section#menu section.wrapper div.top ul li {
+        padding: 53px 35px;
+        margin-right: 15px;
+        width: 90%;
+        margin-bottom: 23px;
+    }
+    section#menu {
+        background-position: left -280px top 400px;
+    }
+    section#menu section.wrapper div.bottom div.left {
+        left: 27px;
+        top: 181px;
+        width: 40%;
+    }
+    section#menu section.wrapper div.bottom ul li div.logo {
+        width: 30%;
+    }
+    section#menu section.wrapper section.about div.bottomb div.items div.left {
+        padding: 25px 30px;
+    }
+    section#menu section.wrapper section.about div.bottomb div.items div.right {
+        padding: 25px 30px;
+    }
+    section#contact section.wrapper div.foot {
+        padding-top: 12%;
+        padding-bottom: 0;
+    }
+    section#contact section.wrapper div.foot div.left form {
+       background: rgb(253, 143, 69); 
+    }
+    section#contact section.wrapper div.foot div.left form textarea {
+        border: 1px solid rgb(255, 123, 0);
+        background: #fff;
+        width: 99%;
+        margin-top: 8px;
+        margin-bottom: 29px;
+    }
+    section#contact section.wrapper div.foot div.left form input {
+        border: 1px solid rgb(255, 123, 0);
+        background: #fff; 
+        width: 99%; 
+        margin-bottom: 10px;
+    }
+    section#contact section.wrapper div.foot div.right p {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#menu section.wrapper section.about div.bottomb div.item div.profile {
+        width: 35%;
+    }
+    section#menu section.wrapper section.about div.top {
+        width: 76%;
+    }
+    section#contact section.wrapper h6 {
+        width: 78%;
+    }
+    section#contact section.wrapper div.foot div.right ul li {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper div.foot div.right ul li a {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper h6 {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper h6 a {
+        color: rgba(0, 0, 0, 0.548);
+    }
+    section#contact section.wrapper hr.line {
+        color: rgba(0, 0, 0, 0.548);
+    }
+}
+@media all and (max-width: 640px){
+    section#menu section.wrapper div.top ul {
+        flex-wrap: wrap;
+    }
+    section#menu section.wrapper section.about div.bottomb div.items {
+        display: none;
+    }
+    section#contact section.wrapper div.foot {
+        flex-wrap: wrap;
+    }
+    section#contact {
+        background: none;
+    }
+    section#contact section.wrapper div.foot div.left {
+        width: none;
+        margin: 0 auto;
+    }
+    section#contact section.wrapper div.foot div.left form {
+        width: 100%;
+        padding: 24px;
+    }
+    section#menu section.wrapper div.bottom div.left {
+        display: none;
+    }
+    section#menu section.wrapper div.bottom ul {
+        margin: 0 auto;
+    }
+    section#menu section.wrapper div.top ul li {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    section#menu section.wrapper section.about div.bottomb {
+        flex-wrap: wrap;
+    }
+    section#menu section.wrapper section.about div.bottomb div.item {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+    section#contact section.wrapper div.foot {
+        padding-top: 5%;
+    }
+    section#main section.wrapper section.spotlight div.left p {
+        font-size: 20px;
+    }
+    section#contact section.wrapper div.foot div.right {
+        width: 62%;
+        margin: 0 auto;
+    }
+    section#menu section.wrapper section.about div.bottomb div.item div.profile {
+        width: 20%;
+    }
+}
+@media all and (max-width: 480px){
+    section#contact section.wrapper div.foot div.right ul {
+        justify-content: space-around;
+    }
+    section#contact section.wrapper div.foot div.left {
+        width: 90%;
+    }
+    section#contact section.wrapper div.foot div.right {
+        width: 90%;
+    }
+    section#menu section.wrapper section.about div.top {
+        width: 90%;
+    }
+    section#menu section.wrapper section.about div.bottomb div.item div.profile {
+        width: 24%;
+    }
+}
+@media all and (max-width: 360px){
+    section#main section.wrapper section.spotlight div.left {
+        width: 100%;
+    }
+    section#main section.wrapper section.spotlight div.left h2 {
+        font-size: 41px;
+    }
+}
+@media all and (max-width: 320px){
+    
+}
